@@ -1,0 +1,233 @@
+/*.main{
+  width: 100%;
+  display: block;
+}
+.content-wrap{
+  width: 100%;
+  margin:0 auto;;
+  border-radius: 20px;
+  overflow: hidden;
+}
+.content-left{
+  color:#000000;
+  float: left;
+  width: 100%;
+  padding: 30px;
+}
+.main-wrap{
+  text-align: center;
+  padding: 20px 0 0 0;
+}
+.main-day{
+  font-size: 30px;
+  font-weight: bold;
+}
+.main-date{
+  font-size: 120px;
+  font-weight: bold;
+  margin: 20px 0;
+}
+.todo-wrap{
+  padding: 0 0 0 40px;
+}
+.todo-title{
+  font-size: 20px;
+  font-weight: 100;
+  margin: 0 0 10px 0;
+}
+.input-box{
+  width: 50%;
+  margin-right: 20px;
+  height: auto;
+  background: #ffffff;
+  color: black;
+  line-height : normal;
+  padding: .8em .5em 0 0;
+  font-family: inherit;
+  border: 0;
+  border-bottom: 1px dashed black;;
+  border-radius: 0;
+  outline-style: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+.input-data{
+  cursor: pointer;
+  font-size: 10px;
+  padding: 10px;
+  margin: 10px 0 10px 0;
+  background: black;
+  border: none;
+  color: #ffffff;
+  border-radius: 10px;
+}
+.input-data:hover{
+  background: #ffffff;
+  color: #0b0809;
+}
+.input-list > div{
+  font-size: 10px;
+  width: 60%;
+  float: left;
+  color:black;
+}
+.input-list > .checked{
+  color: #FFFFFF;
+  text-decoration:line-through
+}
+.del-data{
+  display: block;
+  color: white;
+  float: left;
+  width: 10%;
+  cursor: pointer;
+  font-size: 10px;
+  padding: 10px;
+  background: #0b0809;
+  border: none;
+  border-radius: 10px;
+}
+.content-right{
+  float: left;
+  width: 90%;
+  padding: 10px;
+}
+.sun{
+  color:#ef3333;
+}
+.sat{
+  color:#2107e0;
+}
+.content-right table tr td{
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+.active{
+  background: #0b0809;
+  border-radius: 50%;
+  color: #ffffff;
+}
+*/
+
+/*@media(min-width: 850px){*/
+  .main{
+    zoom: 0.8;
+  }
+  .content-wrap{
+    width: 800px;
+    height: 600px;
+    border-radius: 20px;
+    overflow: hidden;
+    background: white;
+  }
+  .content-left{
+    background: #0b0809;
+    color: white;
+    float: left;
+    width: 360px;
+    height: 600px;
+    padding: 90px 20px 20px 0;
+  }
+  .main-wrap{
+    text-align: center;
+    margin: 20px 0 0 0;
+  }
+  .main-day{
+    font-size: 30px;
+    font-weight: bold;
+  }
+  .main-date{
+    font-size: 120px;
+    font-weight: bold;
+    margin: 20px 0;
+  }
+  .todo-wrap{
+    padding: 0 0 0 40px;
+  }
+  .todo-title{
+    font-size: 20px;
+    font-weight: 100;
+    margin: 0 0 10px 0;
+  }
+  .input-box{
+    width: 70%;
+    height: auto;
+    background: #0b0809;
+    color: white;
+    line-height : normal;
+    padding: .8em .5em 0 0;
+    font-family: inherit;
+    border: 0;
+    border-bottom: 1px dashed white;
+    border-radius: 0;
+    outline-style: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+  }
+  .input-data{
+    cursor: pointer;
+    font-size: 10px;
+    padding: 10px;
+    margin: 20px 0 30px 0;
+    background: white;
+    border: none;
+    color: #0b0809;
+    border-radius: 10px;
+  }
+  .input-data:hover{
+    background: #ffffff;
+    color: #0b0809;
+  }
+  .input-list > div{
+    font-size: 10px;
+    width: 60%;
+    float: left;
+    color: white
+  }
+  .del-data{
+    display: block;
+    color: white;
+    float: left;
+    width: 10%;
+    cursor: pointer;
+    font-size: 10px;
+    padding: 10px;
+    background: #0b0809;
+    border: none;
+    border-radius: 10px;
+  }
+  .content-right{
+    float: left;
+    width: 360px;
+    height: 600px;
+    padding: 100px 20px 20px 20px;
+  }
+  .sun{
+    color:#ef3333;
+  }
+  .sat{
+    color:#2107e0;
+  }
+  .content-right table tr td{
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .active{
+    background: #0b0809;
+    border-radius: 50%;
+    color: #ffffff;
+  }
+  .calendar td today {
+  background: #ffd255;
+  border-radius: 50%;
+  color: #fff;
+}
+/*}*/

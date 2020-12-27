@@ -1,0 +1,225 @@
+
+body {	position: relative;
+	top: 200px;
+	margin: 0px;
+	padding: 0px;
+	background: #FFFFFF;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+}
+
+
+p, ul, ol {
+	margin-top: 0;
+	line-height: 240%;
+	text-align: justify;
+}
+
+
+blockquote {
+}
+
+a {
+	color: #4D4D4D;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+
+hr {
+	display: none;
+}
+
+.entry{zoom: 0.9;}
+
+.list1 {
+}
+
+.list1 li {
+	float: left;
+	line-height: normal;
+}
+
+.list1 li img {
+	margin: 0 30px 30px 0;
+}
+
+.list1 li.alt img {
+	margin-right: 0;
+}
+
+#wrapper {
+	background: #ECECEC;
+}
+
+
+
+/* Page */
+
+#page {
+	width: 960px;
+	margin: 0px auto 0px auto;
+	padding: 40px 0px 0px 0px;
+}
+
+#page-bgtop {
+}
+
+
+#banner {
+	padding-bottom: 20px;
+}
+
+/* Content */
+
+#content {
+	float: left;
+	width: 620px;
+}
+
+/* Post */
+
+.post {
+	margin-bottom: 10px;
+}
+
+.post .title {
+	padding: 4px 0px 0px 0px;
+	border-bottom: 1px solid #E2E2E2;
+}
+
+.post .title a {
+	text-decoration: none;
+	text-transform: capitalize;
+	font-size: 30px;
+	color: #141414;
+}
+
+.post .date {
+	display: inline-block;
+	margin: 0px;
+	padding: 0px 10px 0px 0px;
+	color: #9E9E9E;
+}
+
+.post .meta {
+	margin-left: 2px;
+	padding: 10px 30px 0px 0px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	font-size: 12px;
+	color: #66665E;
+}
+
+.post .meta span {
+	margin: 0px;
+}
+
+.post .meta a {
+	padding: 8px 10px 5px 0px;
+	text-decoration: none;
+	color: #9E9E9E;
+}
+
+.post .entry {
+	padding: 30px 0px 20px 0px;
+}
+
+.post .links {
+	display: block;
+	width: 120px;
+	height: 25px;
+	margin: 0px;
+	padding: 10px 0px 0px 20px;
+	background: #161616 url(images/img10.jpg) no-repeat right top;
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	text-decoration: none;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+
+.post .comments {
+	display: block;
+	width: 120px;
+	height: 18px;
+	margin: 0px;
+	padding: 3px 0px 0px 40px;
+	background: #90BF35;
+	border: 1px dashed #1D1D1D;
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	text-decoration: none;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+
+/* Sidebar */
+
+#sidebar {
+	float: right;
+	width: 280px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#sidebar ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	line-height: normal;
+}
+
+#sidebar li {
+	margin-bottom: 30px;
+	padding: 0 0 10px 0px;
+}
+
+#sidebar li ul {
+	margin: 0px 0px;
+}
+
+#sidebar li li {
+	margin: 0px;
+	padding: 8px 0px 8px 0px;
+	border-bottom: 1px solid #E2E2E2;
+}
+
+#sidebar li li a {
+	padding: 0px 20px;
+	font-weight: normal;
+}
+
+#sidebar li li a:hover {
+	color: #666666;
+}
+
+#sidebar p {
+	margin: 0;
+	padding: 0px 14px;
+}
+
+#sidebar h3 {
+	height: 30px;
+	margin: 0 0 30px 0px;
+	padding: 6px 20px 2px 0px;
+	border-bottom: 1px solid #E2E2E2;
+	text-transform: capitalize;
+	font-size: 20px;
+	font-weight: normal;
+	color: #000000;
+}
+
+#sidebar p {
+	line-height: 200%;
+}
+
+#sidebar a {
+	text-align: left;
+	text-decoration: none;
+	font-weight: bold;
+	color: #666666;
+}
